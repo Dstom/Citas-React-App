@@ -1,0 +1,23 @@
+.images-box-container {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px dashed var(--grisoscuro);
+    padding:1rem;    
+}
+
+.box{    
+    color:#fff;         
+    margin-bottom: .5rem;   
+    margin-top: .5rem;    
+    cursor: move;        
+}
+
+.box-image{
+    border: 1px solid;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}

@@ -1,0 +1,172 @@
+:root {
+    --primario: #1c4e80;
+    --light: #ffffff;
+    --grey: #efefef;
+
+    --lightu: #f1f1f1;
+    --oscuro: #202020;
+    --grisoscuro: #7e909a;
+    --celesteclaro: #a5d8dd;
+    --naranja: #ea6a47;
+    --celeste: #0091d5;
+}
+
+#dashboard {
+    overflow: hidden;
+    font-weight: 300;
+    color: var(--primario);
+    height: 100vh;
+}
+/* SIDEBAR  */
+.sidebar-container {
+    min-height: 100vh;
+}
+
+.sidebar-container .logo {
+    padding: 0.875rem 1.75rem;
+}
+
+.sidebar-container .menu {
+    width: 15rem;
+}
+
+.sidebar-container .menu > a:hover {
+    text-decoration: none;
+}
+
+.sidebar-container-collapsed .menu {
+    width: 5rem;
+}
+.sidebar-container-collapsed .logo {
+    padding: 0.875rem 1.35rem;   
+}
+
+.sidebar-item{
+    display: block;
+    padding:1rem;
+    color: #f8f9fa;
+    border-left: 4px solid var(--primario);
+}
+
+.sidebar-item:focus, .sidebar-item:hover{
+    color: #cbd3da;
+}
+
+.sidebar-item-active {
+    border-left: 4px solid var(--celesteclaro);
+    background: #174069;
+}
+
+/* */
+
+.bg-light2 {
+    background-color: var(--light) !important;
+}
+
+
+.bg-primario {
+    background-color: var(--primario) !important;
+}
+
+.bg-lightu {
+    background-color: var(--lightu) !important;
+}
+.bg-oscuro {
+    background-color: var(--oscuro) !important;
+}
+.bg-grisoscuro {
+    background-color: var(--grisoscuro) !important;
+}
+.bg-celesteclaro {
+    background-color: var(--celesteclaro) !important;
+}
+.bg-celeste {
+    background-color: var(--celeste) !important;
+}
+.bg-naranja {
+    background-color: var(--naranja) !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+}
+
+.avatar {
+    max-width: 30px;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+}
+#navbar-menu {
+    display: none;
+}
+@media (max-width: 768px) {
+    #sidebar-container {
+        display: none;
+    }
+
+    #navbar-menu {
+        display: flex;
+    }
+}
+
+
+.btn-primario {
+    background-color: var(--primario);
+    border-color: #174069;   
+    color:var(--grey);
+    
+}
+
+.btn-primario:active {
+    /*formatting goes here*/
+}
+.btn-primario:hover {
+    color: var(--grey);
+    background-color: #174069;
+}
+.btn-primario:focus {
+    /*formatting goes here*/
+}
+
+.btn-celeste {
+    background-color: var(--celeste);
+    color: var(--grey);
+}
+.btn-celeste:hover{
+    color: var(--grey);
+    background-color: #007ab3;
+}
+
+
+/* FABS = FLOAT ACTION BUTTONS  */
+.fab-button {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 30px;
+    padding: 25px;
+    position: fixed;
+    right: 25px;
+
+}
+
+.fab-button-danger {
+    bottom: 25px;
+    font-size: 15px;
+    padding: 10px;
+    position: fixed;
+    /*left: 25px; */
+}
+
+.card-active {
+    border-color: var(--primario);
+}
