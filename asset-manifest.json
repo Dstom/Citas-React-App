@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Citas-React-App/static/css/main.68e26422.chunk.css",
+    "main.js": "/Citas-React-App/static/js/main.21ce2c0c.chunk.js",
+    "main.js.map": "/Citas-React-App/static/js/main.21ce2c0c.chunk.js.map",
+    "runtime-main.js": "/Citas-React-App/static/js/runtime-main.5b61090f.js",
+    "runtime-main.js.map": "/Citas-React-App/static/js/runtime-main.5b61090f.js.map",
+    "static/js/2.b3968cb2.chunk.js": "/Citas-React-App/static/js/2.b3968cb2.chunk.js",
+    "static/js/2.b3968cb2.chunk.js.map": "/Citas-React-App/static/js/2.b3968cb2.chunk.js.map",
+    "index.html": "/Citas-React-App/index.html",
+    "static/css/main.68e26422.chunk.css.map": "/Citas-React-App/static/css/main.68e26422.chunk.css.map",
+    "static/js/2.b3968cb2.chunk.js.LICENSE.txt": "/Citas-React-App/static/js/2.b3968cb2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b61090f.js",
+    "static/js/2.b3968cb2.chunk.js",
+    "static/css/main.68e26422.chunk.css",
+    "static/js/main.21ce2c0c.chunk.js"
+  ]
+}
